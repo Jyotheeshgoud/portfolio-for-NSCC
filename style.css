@@ -1,0 +1,258 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Montserrat&family=Teko&display=swap');
+
+*{
+    margin:0%;
+    border: 00%;
+    cursor: context-menu;
+    scrollbar-gutter:stable;
+
+}
+.hedit{
+margin-right: 40px;
+}
+.bga{
+    background-color: white;
+    height: 100vh;
+   
+}
+.bgb{
+    background-color: black;
+    height: 150vh;
+    width: 60vw;
+    rotate: 15deg;
+    margin-right: -20vh;
+    margin-top: -20vh;
+    
+}
+.jyo{
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    position: absolute;
+    right: 50px;
+    
+}
+
+.navElements-edit
+{
+    font-size: 20px;
+    margin-right: 30px;
+    margin-top: 30px;
+    font-family: 'Arimo', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.navElements-editcopy
+{
+    font-size: 20px;
+    margin-right: 30px;
+    margin-top: 30px;
+    font-family: 'Arimo', sans-serif;
+    cursor: pointer;
+}
+.navElements-edit:hover{
+    font-size: 24px;
+}
+.background{
+    border-style: solid;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.background:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+
+}
+.imgedit{
+    position: absolute;
+    left: 0px;
+    height: 90vh;
+    top: 10vh;
+}
+.logoedit{
+    position: absolute;
+    left: 50px;
+    height: 55px;
+    top: 30px;
+}
+.iconedit{
+    font-size: 50px;
+    z-index: 5;
+    margin-top: 30px;
+    rotate: -15deg;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.hoverEffect
+{
+    transform: rotateY(0deg);
+    transition: 0.5s;
+}
+
+.hoverEffect:hover
+{
+    transform: rotateY(360deg);
+}
+.iconsplace{
+    position: absolute;
+    left: 45.5vw;
+    top: 150px;
+    rotate: 15deg;
+}
+.intro{
+    position: absolute;
+    color:rgb(255, 249, 249);
+    top: 40vh;
+    font-family: 'Montserrat', sans-serif;
+    right: 15vw;
+}
+.h1edit{
+    font-size:80px;
+    font-weight: bold;
+}
+.pedit{
+    color: grey;
+    font-weight: bold;
+}
+.aboutedit{
+    border-style: solid;
+    height: 50px;
+    width: 178px;
+    margin-top: 100px;
+    text-align: center;
+    border-width: 3px;
+    font-family: 'Teko', sans-serif;
+}
+.editx{
+    margin-top: 80px;
+    border-style:none;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Teko', sans-serif;
+}
+.designx{
+    
+
+    position: absolute;
+    color:rgb(255, 249, 249);
+    top: 160vh;
+    font-family: 'Montserrat', sans-serif;
+    right: 80vw; 
+   
+}
+.seperation{
+   width: 30vh;
+   margin-top: 50px;
+  
+}
+.skillsx{
+    border-style: solid;
+    height: 50px;
+    width: 178px;
+    margin-top: 100px;
+    text-align: center;
+    border-width: 3px;
+    font-family: 'Teko', sans-serif;
+    margin-left: 20vh;
+
+}
+.iedit{
+    position: absolute;
+    left: 0px;
+    height: 90vh;
+    top: 180vh;
+    
+}
+.learningx{
+    border-style: solid;
+    height: 40px;
+    width: 140px;
+    margin-top: 95px;
+    text-align: center;
+    border-width: 3px;
+    font-family: 'Teko', sans-serif;
+    margin-left: 90vh;
+
+}
+.jedit{
+    position: absolute;
+    right: 40vh;
+    height: 50vh;
+    top: 189vh;
+
+}
+.portfoliox{
+    position: absolute;
+    left: 10vh;
+    height: 40vh;
+    top: 290vh;
+    
+}
+.portfolioy{
+    position: absolute;
+    color:rgb(255, 249, 249);
+    top: 300vh;
+    right: 15vw;
+    font-size: 5vh;
+    color: black;
+    font-family: 'Teko', sans-serif;
+
+}
+.contactx{
+    border-style: none;
+   width: fit-content;
+    margin-top: 200px;
+    text-align: center;
+    border-width: 3px;
+    font-family: 'Teko', sans-serif;
+    margin-left: 93vh;
+
+}
+.actionx{
+    
+    font-family: 'Teko', sans-serif;
+    border: none black;
+    margin-top: 10vh;
+    text-align: center;
+    height: 40vh;
+    
+}
+  .actiony{
+
+    font-family: 'Teko', sans-serif;
+    border: none black;
+    margin-top: 1vh;
+    text-align: center;
+    width: 50vh;
+
+    
+    
+  }
+ .iconsplacex{
+    position: absolute;
+    left: 50px;
+    height: 55px;
+    top: 400vh;
+    rotate: 0deg;
+ }
+ .hoverEffectx{
+    rotate: 15deg;
+    border-style: none ;
+    margin-top: 65vh;
+    margin-left: 5vh;
+   text-align: center;
+   transform: rotateY(0deg);
+    transition: 0.5s;
+ }
+ .hoverEffectx:hover{
+    transform: rotateY(360deg);
+    
+ }
