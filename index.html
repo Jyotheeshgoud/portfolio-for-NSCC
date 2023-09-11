@@ -10,16 +10,20 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div class="container-fluid" >
+    <div class="row">
+      <div class="d-none d-lg-block">
+  <div class="cursor" id="cursor"></div>
   <div class="page1">
-<div class="d-flex flex-row justify-content-end"style="height:100vh;width : 100vw; overflow:hidden;" id="Home">
+<div class="d-flex flex-row justify-content-end"style="height:100vh;width : 100%; overflow:hidden;" id="Home">
        <div class="bga"  > </div>
         <div class="bgb"> </div>
         <div class="jyo d-flex flex-row">
-         <a href="#Home"> <h1 class = "navElements-edit"  style="color: white; text-decoration : none;">Home</h1></a>
-          <a  href="#About"><h1 class = "navElements-edit" style="color: white;" > About</h1></a>
-          <a href=" #Skills"><h1 class = "navElements-edit" style="color: white;">Skills</h1></a>
-          <a href="#Portfolio"><h1 class = "navElements-edit"style="color: white;">Portfolio</h1></a>
-          <a href="#Contact Me"><h1 class = "navElements-editcopy background"style="color: white" >Contact Me</h1></a>
+         <a href="#Home" style = "text-decoration: none;"> <h1 class = "navElements-edit"  style="color: white; text-decoration : none;">Home</h1></a>
+          <a  href="#About" style = "text-decoration: none;"><h1 class = "navElements-edit" style="color: white;" > About</h1></a>
+          <a href=" #Skills" style = "text-decoration: none;"><h1 class = "navElements-edit" style="color: white;">Skills</h1></a>
+          <a href="#Portfolio" style = "text-decoration: none;"><h1 class = "navElements-edit"style="color: white;">Portfolio</h1></a>
+          <a href="#Contact Me" style = "text-decoration: none;color : white"><h1 class = "navElements-editcopy background" >Contact Me</h1></a>
       
         </div>
         <img src="1689346070670-removebg.png" class="imgedit">
@@ -53,12 +57,10 @@
 </div>
 
 <div class="page3" id="Skills">
+  
 <div style = "height : 100vh;background-image : radial-gradient(white,)" >
   <div class="d-flex flex-row " ><h1 class="skillsx">skills</h1>
     <h2 class="learningx">Learnings</h2>
-    
-   
-    
 </div> 
   
   <div class="d-flex flex-column"><img src="WhatsApp_Image_2023-09-10_at_00.25.54-removebg-preview (2).png "class="iedit"  ></div>
@@ -99,6 +101,82 @@
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
+<div class="container-fluid"  >
+  <div class="row" >
+    <div class="col-12 d-lg-none" style="background-color: rgb(7, 7, 7);height : 400vh;" >
+<div class="col-12"  style="text-decoration: none;"  >
+  <nav class="responsive" >
+    <ul class="d-flex flex-row justify-content-center" >
+      
+      <a href = "#home"><li >Home</li></a>
+      <a href = "#about"><li>About</li></a>
+      <a href = "#skills"><li>Skills</li></a>
+      <a href="#portfolio"><li>Portfolio</li></a>
+      <a  href="#contact"><li>Contact</li></a>
+    </ul>
+  </nav>
+
+</div> 
+<div class="col-12 d-flex flex-row justify-content-center" id="home">
+  <img src="1689346070670-removebg.png" class="imgedit imgeditx">
+</div>
+       <div class="intro  introx">
+        <h3 class="h3edit">Hi, I Am </h3>
+        <h1 class="h1edit">Jyotheesh</h1>
+        <p class="pedit">Front-end Developer</p>
+     </div>
+     <div class="d-flex flex-row justify-content-center" id="about"><h1 class="aboutedit aboutedita">About Me</h1>
+     <div class="d-flex flex-row justify-content-center" >
+    
+      <h3 class="editx edita" id="about">I'm a front-end developer with 6months of hands-on experience in web development. My passion lies in crafting seamless and visually engaging online experiences.
+        My philosophy is simple: code with creativity, build with precision. I thrive on bringing innovative solutions to life.</h3>
+     </div>
+     <div class="d-flex flex-column "  ><h1 class="skillsx skillsz" id="skills" id="skills">skills</h1> 
+     <div class="d-flex flex-row jyo ">
+        <img src="mobilehtml.png">
+        <img src="csslogomobile.png">
+     </div>
+     <div class="d-flex flex-row jyo "style="top:20vh" >
+      <img src="Figma-1-logo.png" >
+      <img src="3d-bootstrap-programming-framework-logo-free-png.webp">
+     </div>
+     <div class="d-flex flex-column "  ><h1 class="skillsx skillsz" style="top:155vh">Learnings</h1> 
+      <div class="d-flex flex-row jyo " style="top: 55vh">
+         <img src="react_logo-512.webp">
+         <img src="javascript.webpmobile.webp">
+    </div>
+  </div>
+</div>
+     </div>
+     <div class=" d-flex flex-row justify-content-center porhead" id="portfolio">Portfolio</div>
+     <img src="Screenshot 2023-09-10 202405.png" class="portfolioxa" id="portfolio">
+     <div class="portfoli">This is My First Portfolio That I Built</div>
+     <h2 class="d-flex flex-column flex-row justify-content-center contactxa" id="contact" >Contact Me</h2>
+     <div><form action="submit_form.php" method="post" class="actionxa">
+       <label for="name" class="actiony">Name:</label><br>
+       <input type="text" id="name" name="name" class="actionya"><br>
+       <label for="email" class="actiony">Email:</label><br>
+       <input type="email" id="email" name="email" class="actionya"><br>
+       <label for="phone" class="actiony">Phone Number:</label><br>
+       <input type="tel" id="phone" name="phone" class="actionya"><br>
+       <label for="message" class="actiony">Message:</label><br>
+       <textarea id="message" name="message" class="actionyax"></textarea><br><br>
+       <input type="submit" value="Submit" class="sub ">
+     </form> 
+
+     <div class="iconsplacee d-flex flex-row"  >
+      <div class = "hoverEffectx"><a href = "https://instagram.com/j.y.o.t.h.e.e.s.h?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram iconedit" style = "color : rgb(68, 10, 215);"></i></a></div>
+      <div class = "hoverEffectx"><a href = "https://www.linkedin.com/in/jyotheesh-goud-487794264"><i class="fa-brands fa-linkedin iconedit" style = "color : rgb(204, 20, 20);"></i></a></div>
+      <div class = "hoverEffectx"><a href = "https://github.com/Jyotheeshgoud"><i class="fa-brands fa-github iconedit" style = "color : rgb(76, 27, 188);"></i></a></div>
+      <div class = "hoverEffectx"><a href = "https://twitter.com/GoudJyotheesh?t=egb5cSwnOdHhWLlbxhUD3Q&s=08"><i class="fa-brands fa-x-twitter iconedit" style = "color : rgb(196, 13, 13);"></i></a></div>
+    </div>
+   
+     </div>
+     
+<script src="script.js"></script>
 
 
 </body>
