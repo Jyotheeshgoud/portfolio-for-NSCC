@@ -5,7 +5,7 @@
     margin:0%;
     border: 00%;
     cursor: context-menu;
-    scrollbar-gutter:stable;
+    scroll-behavior: smooth;
 
 }
 .hedit{
@@ -52,6 +52,7 @@ margin-right: 40px;
 }
 .navElements-edit:hover{
     font-size: 24px;
+    text-decoration: none;
 }
 .background{
     border-style: solid;
@@ -125,10 +126,11 @@ margin-right: 40px;
     border-style: solid;
     height: 50px;
     width: 178px;
-    margin-top: 100px;
+    margin-top: 140px;
     text-align: center;
     border-width: 3px;
     font-family: 'Teko', sans-serif;
+  
 }
 .editx{
     margin-top: 80px;
@@ -137,6 +139,7 @@ margin-right: 40px;
     margin-left: 40px;
     margin-right: 40px;
     font-family: 'Teko', sans-serif;
+   
 }
 .designx{
     
@@ -225,6 +228,12 @@ margin-right: 40px;
     height: 40vh;
     
 }
+
+.actionx label
+{
+    text-align: left;
+}
+
   .actiony{
 
     font-family: 'Teko', sans-serif;
@@ -232,6 +241,7 @@ margin-right: 40px;
     margin-top: 1vh;
     text-align: center;
     width: 50vh;
+    border-radius: 20px;
 
     
     
@@ -256,3 +266,185 @@ margin-right: 40px;
     transform: rotateY(360deg);
     
  }
+ .cursor{
+    -webkit-box-shadow: 10px 10px 300px 200px rgb(40, 145, 100);
+-moz-box-shadow: 10px 10px 300px 200px rgba(109,113,222,1);
+box-shadow: 10px 10px 300px 135px rgb(191, 54, 150);
+height: 1px;
+width: 1px;
+position: absolute;
+z-index: 50;
+pointer-events: none;
+animation-name: colors;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+ }
+ @keyframes colors
+{
+    0%{
+        background-image : radial-gradient(rgba(230,28,173,1),white);
+        -webkit-box-shadow: 15px 5px 30px 135px rgb(255, 255, 255);
+        -moz-box-shadow: 15px 5px 300px 135px rgb(243, 235, 241);
+        box-shadow: 15px 5px 300px 100px rgb(179, 233, 241);
+    }
+
+    33%{
+        background-image : radial-gradient(rgba(230,28,173,1),white);
+        -webkit-box-shadow: 15px 5px 30px 135px rgb(255, 255, 255);
+        -moz-box-shadow: 15px 5px 300px 135px rgb(243, 235, 241);
+        box-shadow: 15px 5px 300px 100px rgb(241, 175, 251);
+    }
+
+    66%{
+        background-image : radial-gradient(rgba(230,28,173,1),white);
+        -webkit-box-shadow: 15px 5px 30px 135px rgb(255, 255, 255);
+        -moz-box-shadow: 15px 5px 300px 135px rgb(243, 235, 241);
+        box-shadow: 15px 5px 300px 100px rgb(253, 241, 161);
+    }
+
+    100%{
+        background-image : radial-gradient(rgba(230,28,173,1),white);
+        -webkit-box-shadow: 15px 5px 30px 135px rgb(255, 255, 255);
+        -moz-box-shadow: 15px 5px 300px 135px rgb(243, 235, 241);
+        box-shadow: 15px 5px 300px 100px rgb(179, 233, 241);
+    }
+}
+
+
+
+
+.responsive ul a li {
+    list-style-type: none;
+    font-size: 43px;
+    margin-left: 22px;
+    margin-right: 22px;
+    font-weight: bold;
+    color: rgb(255, 252, 252);
+    
+   
+}
+.responsive{
+    background-color: rgb(3, 3, 3);
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    z-index: 5;
+    margin-left: -40px;
+    
+}
+.imgeditx{
+    height: 900px;
+    margin-left: -20px;
+}
+.introx{
+    top: 500px;
+    right: 50px;
+}
+.edita{
+   position: absolute;
+   top: 70vh;
+   color: lightgray;
+}
+.aboutedita{
+    position: absolute;
+   top: 60vh;
+   color: white;
+}
+.skillsz{
+    position: absolute;
+    top: 105vh;
+    margin-left: -100px;
+    color: lightgray;
+
+}
+.jyo img{
+    height:  200px;
+    position: relative;
+    top: 120vh;
+    margin-left: 100px;
+    border-style: none;
+    border-color: rgb(249, 245, 245);
+    right : 18vw;
+
+   
+}
+.portfolioxa{
+    position:absolute ;
+    top: 230vh;
+    margin-left: 100px;
+   width: 700px;
+
+}
+.porhead{
+    border-style: solid;
+    margin-top: 210vh;
+    text-align: center;
+    border-width: 3px;
+    font-family: 'Teko', sans-serif;
+    color: rgb(235, 233, 233);
+    font-size: 50px;
+    margin-left: 12vw;
+    width: 15vh;
+   
+}
+.portfoli{
+    border-style: none;
+    margin-top: 47vh;
+    text-align: center;
+    border-width: 3px;
+    font-family: 'Teko', sans-serif;
+    color: rgb(235, 233, 233);
+    font-size: 50px;
+    margin-left: 4vw;
+    width: 39vh;
+}
+.contactxa{
+    border-style: none;
+    margin-top: 45vh;
+    text-align: center;
+    border-width: 3px;
+    font-family: 'Teko', sans-serif;
+    color: rgb(235, 233, 233);
+    font-size: 50px;
+    margin-left: 9vw;
+    width: 39vh;
+}
+.actionxa{
+    width: 50px;
+     margin-top: 10vh;
+    
+}
+.actionxa label{
+    height: 50px;
+    color: white;
+    text-align: start;
+    font-size: 3vh;
+}
+.actionya{
+    height: 50px;
+    margin-left: 0vh;
+    width: 50vw;
+    background-color: rgb(198, 196, 194);
+ 
+}
+.actionyax{
+    width: 30vh;
+    height: 20vh;
+    border-radius: 5%;
+    font-size: xx-large;
+    background-color: rgb(241, 239, 236);
+}
+.sub{
+    height: 50px;
+    width:fit-content;
+    font-size: xx-large;
+    font-family: 'Teko', sans-serif;
+    margin-left: 20vh;
+}
+.iconsplacee{
+    position: absolute;
+    left: 45;
+    top: 315vh;
+  
+   
+}
